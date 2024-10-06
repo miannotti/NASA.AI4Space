@@ -1,0 +1,36 @@
+<template>
+  <div>
+    <BarChart :chart-data="chartData" :options="options" />
+  </div>
+</template>
+
+<script>
+import { Bar } from 'vue-chartjs';
+import { Chart as ChartJS, Title, Tooltip, Legend, BarElement, CategoryScale, LinearScale } from 'chart.js';
+
+ChartJS.register(Title, Tooltip, Legend, BarElement, CategoryScale, LinearScale);
+
+export default {
+  components: {
+    BarChart: Bar,
+  },
+  data() {
+    return {
+      chartData: {
+        labels: ['January', 'February', 'March', 'April'],
+        datasets: [
+          {
+            label: 'Sales',
+            backgroundColor: '#f87979',
+            data: [40, 20, 60, 80],
+          },
+        ],
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+      },
+    };
+  },
+};
+</script>
