@@ -1,3 +1,18 @@
+FINAL DEMO:
+
+https://jade-crepe-b4516a.netlify.app/
+
+DATA SOURCE: https://www.spaceappschallenge.org/nasa-space-apps-2024/challenges/seismic-detection-across-the-solar-system/?tab=resources
+Space Apps 2024 Seismic Detection Data Packet:
+lunar & mars
+
+A “lunar” subfolder containing:
+Training data (in miniseed and CSV format) for Grade A lunar events from Apollo 12, a seismic catalog, and plots.
+A test dataset (in miniseed and CSV format) using Grade A and B data from Apollo 12, 15, and 16
+A “mars” subfolder containing:
+Training data (in miniseed and CSV format) for two events recorded for InSight, a seismic catalog, and plots.
+A test dataset (in miniseed and CSV format) for Mars InSight events occurring from 2019-2022.
+
 IA4SPACE
 
 Summary
