@@ -1,0 +1,12 @@
+https://www.spaceappschallenge.org/nasa-space-apps-2024/challenges/seismic-detection-across-the-solar-system/?tab=resources
+
+NASA Resources
+Space Apps 2024 Seismic Detection Data Packet: Data and catalogs for this dataset are typically stored in archive format which is difficult to assess during the duration of a hackathon. Due to this, the team compiled all of the required data into an analysis-ready format, hosted by the Planetary Data System Geosciences Node at Washington University in St. Louis. It contains:
+
+A Python Jupyter Notebook with useful codes to help you get started with the data
+A “lunar” subfolder containing:
+Training data (in miniseed and CSV format) for Grade A lunar events from Apollo 12, a seismic catalog, and plots.
+A test dataset (in miniseed and CSV format) using Grade A and B data from Apollo 12, 15, and 16
+A “mars” subfolder containing:
+Training data (in miniseed and CSV format) for two events recorded for InSight, a seismic catalog, and plots.
+A test dataset (in miniseed and CSV format) for Mars InSight events occurring from 2019-2022.
